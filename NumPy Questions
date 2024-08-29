@@ -1,0 +1,37 @@
+import numpy as np
+
+''' ques-1 Convert the below list into numpy array then display the array
+
+Input: my_list = [1, 2, 3, 4, 5]
+
+Output: numpy array: [1 2 3 4 5]'''
+
+print("ques-1")
+my_list = [1, 2, 3, 4, 5]
+numpy_array = np.array(my_list)
+
+print("NumPy array:", numpy_array)
+
+''' ques-2 Convert the below list into a numpy array then display the array then display the first and last index and then multiply each element by 2 and display the result.
+
+Input: my_list = [1, 2, 3, 4, 5]
+
+output:
+
+first element:1
+
+last element:5
+
+array after doubling each elements: [ 2 4 6 8 10]'''
+
+print("ques-2")
+my_list = [1, 2, 3, 4, 5]
+numpy_array2 = np.array(my_list)
+
+print("NumPy array:", numpy_array2)
+
+print("First element:", numpy_array2[0])
+print("Last element:", numpy_array2[-1])
+
+doubled_array = numpy_array2 * 2
+print("Array after doubling each element:", doubled_array)
